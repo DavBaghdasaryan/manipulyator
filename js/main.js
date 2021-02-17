@@ -32,6 +32,9 @@ let burger_nav = document.querySelector('.burger_nav')
 let calc_btn = document.querySelector('.calc_btn')
 let calculator = document.querySelector('.calculator')
 let cancel_btn = document.querySelector('.cancel_btn')
+
+
+
 let slider1 = document.getElementById('range1')
 let slider2 = document.getElementById('range2')
 
@@ -39,7 +42,6 @@ let output1 = document.getElementById('value1')
 let output2 = document.getElementById('value2')
 
 let obshi = document.getElementById('obshi')
-
 
 let yndhanur = parseInt(obshi.innerHTML)
 
@@ -67,7 +69,11 @@ slider2.oninput = function () {
 
 }
 
-// calculate
+
+
+
+
+
 calc_btn.addEventListener('click', e => {
     e.preventDefault()
     intro.scrollIntoView({ behavior: "smooth" })
